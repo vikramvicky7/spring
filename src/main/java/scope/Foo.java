@@ -1,0 +1,23 @@
+package scope;
+
+public class Foo {
+	private String bar;
+
+	public Foo() {
+		System.out.println(".");
+	}
+
+	public String getBar() {
+		return bar;
+	}
+
+	public void setBar(String bar) {
+		this.bar = bar;
+	}
+
+	@Override
+	public String toString() {
+		return "Foo [bar=" + bar + "]";
+	}
+
+}
